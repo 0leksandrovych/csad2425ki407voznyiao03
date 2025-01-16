@@ -10,21 +10,21 @@ This repository is created as part of the "Automated Design of Computer Systems"
 
 ## Task Details
 The tasks in this repository are related to the development of hardware and desktop software for simple games. The game will be implemented in a client-server architecture, where:
-- The **server part** runs on the hardware platform.
+- The **server part** runs on the hardware simulation platform.
 - The **client part** runs on the desktop software.
 
 ### Game Features
 - **Student number**: 03
-- **Game**: tik-tac-toe 3x3
+- **Game**: tic-tac-toe 3x3
 - **Config format**: INI
 
 ## Technology, Language, and Hardware Used
-For the tasks in this repository, the following technologies, programming languages, and hardware will be used:
+For the tasks in this repository, the following technologies, programming languages, and hardware simulations will be used:
 
-- **Programming Language**: C++
-- **Hardware Platform**: Arduino UNO R3 (CH340)
+- **Programming Language**: Python
+- **Hardware Platform**: com0com (virtual serial port emulator for Windows)
 - **Software Tools**:
   - Git for version control
   - CI/CD pipeline for automatic testing and building
-  - GCC for C++ compilation
+  - Python standard library and external modules for game and communication logic
   - Doxygen for documentation
